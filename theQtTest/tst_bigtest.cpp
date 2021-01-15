@@ -23,7 +23,7 @@ void BigTest::test_case1() {
   asd.setQstring("Working!!!");
   QString result = asd.getString();
 
-  QCOMPARE(result, "Working!!!");
+  QCOMPARE(result, "Not Working!!!");
 }
 
 QTEST_APPLESS_MAIN(BigTest)
